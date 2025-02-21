@@ -4,14 +4,24 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #1A1A2E;
+  --secondary-color: #FFA500;
+  --text-color: #FFFFFF;
+  --link-color: #FFFFFF;
+  --hover-color: #A2FAA3;
+  --font-family: 'Merriweather', serif;
+  --font-size: 62.5%;
+}
+
 html {
-  font-size: 62.5%;
+  font-size: var(--font-size);
 }
 
 body {
-  font-family: 'Merriweather', serif;
-  color: #FFFFFF;
-  background-color: #1A1A2E;
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--primary-color);
 }
 
 h1 {
@@ -24,7 +34,7 @@ h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: var(--link-color);
 }
 
 main {
@@ -65,13 +75,13 @@ hr {
 
 .hero-title {
   text-align: center;
-  color: #FFA500;
+  color: var(--secondary-color);
   font-size: 8rem;
 }
 
 .hero-subtitle {
   font-size: 2.4rem;
-  color: #FFA500;
+  color: var(--secondary-color);
   text-align: center;
 }
 
@@ -81,7 +91,7 @@ hr {
 }
 
 .author-name a:hover {
-  background-color: #A2FAA3;
+  background-color: var(--hover-color);
 }
 
 .publish-date {
@@ -99,7 +109,7 @@ hr {
 
 .first-paragraph::first-letter {
   font-size: 6rem;
-  color: #FFA500;
+  color: var(--secondary-color);
 }
 
 .quote {
