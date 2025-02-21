@@ -45,7 +45,7 @@ This repository contains a responsive magazine page built using HTML, CSS, and F
 
 To install the repository, follow these steps:
 
-1. Clone the repository using the command `git clone https://github.com/your-username/Magazine-Page.git`
+1. Clone the repository using the command `git clone https://github.com/nurf21/Magazine-Page.git`
 2. Open the `index.html` file in a web browser to view the page
 
 
