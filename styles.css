@@ -65,3 +65,16 @@ img {
   color: #FFA500;
   text-align: center;
 }
+
+.author {
+  font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.author-name a:hover {
+  background-color: #A2FAA3;
+}
+
+.publish-date {
+  color: rgba(255, 255, 255, 0.5);
+}
