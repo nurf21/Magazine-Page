@@ -35,6 +35,11 @@ h2, h3, h4, h5, h6 {
 a {
   text-decoration: none;
   color: var(--link-color);
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--hover-color);
 }
 
 main {
@@ -46,6 +51,7 @@ main {
 img {
   width: 100%;
   object-fit: cover;
+  border-radius: 0.5rem;
 }
 
 hr {
@@ -96,6 +102,7 @@ hr {
 
 .publish-date {
   color: rgba(255, 255, 255, 0.5);
+  font-size: 1.6rem;
 }
 
 .social-icons {
@@ -105,6 +112,7 @@ hr {
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
   align-items: center;
+  justify-items: center;
 }
 
 .first-paragraph::first-letter {
@@ -137,6 +145,7 @@ hr {
 
 .list-title, .list-subtitle {
   color: #00FFFF;
+  font-size: 1.8rem;
 }
 
 .image-wrapper {
